@@ -1,0 +1,13 @@
+:root {
+  --primary-color: hsl(29, 100%, 63%);
+  --blue-light: hsla(191, 34%, 65%);
+  --blue-dark: hsl(191, 25%, 39%);
+  --titlename-color: hsl(194, 97%, 54%);
+}
+
+h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 40px;
+  color: var(--titlename-color);
+  text-shadow: 4px 4px 0 #000;
+}
