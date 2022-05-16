@@ -1,0 +1,20 @@
+:root {
+  --primary-color: hsl(29, 100%, 63%);
+  --blue-light: hsla(191, 34%, 65%);
+  --blue-dark: hsl(191, 25%, 39%);
+  --titlename-color: hsl(194, 97%, 54%);
+  --black-second: hsl(195, 6%, 24%);
+}
+
+#box {
+  background-color: var(--black-second);
+
+  display: inline-block;
+  box-shadow: 10px 10px 0 black;
+  text-align: center;
+  padding: 42px 44px;
+}
+
+#box h1 {
+  margin-bottom: 28px;
+}
