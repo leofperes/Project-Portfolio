@@ -1,0 +1,26 @@
+.banner {
+  background-image: url(../assets/Img/foto\ leo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -22rem;
+  box-sizing: border-box;
+  height: 79.8rem;
+  border-bottom: 10px solid black;
+  padding-top: 11.5rem;
+  padding-left: 9rem;
+}
+
+.banner .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 66rem;
+}
+
+.banner .box {
+  margin-bottom: 4rem;
+}
+
+.banner .navigation {
+  display: flex;
+  justify-content: space-around;
+}

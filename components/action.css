@@ -3,26 +3,28 @@
   --blue-light: hsla(191, 34%, 65%);
   --blue-dark: hsl(191, 25%, 39%);
   --titlename-color: hsl(194, 97%, 54%);
+
+  font-size: 62.5%; /*62,5% = 1rem*/
 }
 
 a.action {
   display: inline-flex;
   align-items: center;
   color: white;
-  font-size: 20px;
+  font-size: 2rem;
   font-family: 'fira code';
   font-weight: 500;
   text-decoration: none;
-  margin-right: 30px;
+  margin-right: 3rem;
 }
 
 a.action::before {
   content: '';
   background-color: var(--blue-light);
-  width: 10px;
-  height: 10px;
-  margin-right: 10px;
-  border-radius: 10px;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
   transition: background 200ms;
 }
 
