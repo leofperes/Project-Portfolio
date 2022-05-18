@@ -15,7 +15,7 @@
   padding: 42px 44px;
 }
 
-.box h1 {
+.title {
   margin-bottom: 28px;
   font-family: 'Press Start 2P', sans-serif;
   font-size: 40px;
@@ -23,9 +23,16 @@
   text-shadow: 4px 4px 0 #000;
 }
 
-.box h2 {
+.subtitle {
   font-size: 30px;
   text-shadow: 5px 5px 0px #000000;
   font-family: 'Press Start 2P', sans-serif;
   color: white;
+}
+
+.title.-second {
+  /*variação de class*/
+  color: white;
+  text-shadow: none;
+  text-align: center;
 }
