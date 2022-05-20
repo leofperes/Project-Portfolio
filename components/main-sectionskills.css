@@ -1,15 +1,17 @@
-.skills {
+.main-skills {
   background-color: var(--blue-light);
   padding-top: 5rem;
   padding-bottom: 10rem;
   border-bottom: 1rem solid #7c5e99;
 }
 
-.skills .main-title {
+.main-skills .main-title {
   margin-bottom: 6rem;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 40px;
 }
 
-.skills.-black {
+.main-skills.-black {
   background-color: black;
   border-color: var(--blue-light);
 }

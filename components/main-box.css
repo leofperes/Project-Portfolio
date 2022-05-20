@@ -6,7 +6,7 @@
   --black-second: hsl(195, 6%, 24%);
 }
 
-.box {
+.main-box {
   background-color: var(--black-second);
 
   display: inline-block;
@@ -15,7 +15,7 @@
   padding: 42px 44px;
 }
 
-.main-title {
+.main-box .main-title {
   margin-bottom: 28px;
   font-family: 'Press Start 2P', sans-serif;
   font-size: 40px;
@@ -23,7 +23,7 @@
   text-shadow: 4px 4px 0 #000;
 }
 
-.subtitle {
+.main-subtitle {
   font-size: 30px;
   text-shadow: 5px 5px 0px #000000;
   font-family: 'Press Start 2P', sans-serif;

@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
   background-image: url(../assets/Img/foto\ leo.png);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -10,17 +10,17 @@
   padding-left: 9rem;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
   display: flex;
   flex-direction: column;
   width: 66rem;
 }
 
-.banner .box {
+.main-banner .main-box {
   margin-bottom: 4rem;
 }
 
-.banner .navigation {
+.main-banner .navigation {
   display: flex;
   justify-content: space-around;
 }

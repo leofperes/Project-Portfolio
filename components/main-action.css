@@ -7,7 +7,7 @@
   font-size: 62.5%; /*62,5% = 1rem*/
 }
 
-a.action {
+a.main-action {
   display: inline-flex;
   align-items: center;
   color: white;
@@ -18,7 +18,7 @@ a.action {
   margin-right: 3rem;
 }
 
-a.action::before {
+a.main-action::before {
   content: '';
   background-color: var(--blue-light);
   width: 1rem;
@@ -28,7 +28,7 @@ a.action::before {
   transition: background 200ms;
 }
 
-a.action:hover::before {
+a.main-action:hover::before {
   background-color: var(--blue-dark);
   color: white;
   transform: scale(1.05);
