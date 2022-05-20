@@ -8,3 +8,8 @@
 .skills .main-title {
   margin-bottom: 6rem;
 }
+
+.skills.-black {
+  background-color: black;
+  border-color: var(--blue-light);
+}
