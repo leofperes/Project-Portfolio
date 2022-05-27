@@ -7,11 +7,18 @@
 
 .main-skills .main-title {
   margin-bottom: 6rem;
-  font-family: 'Press Start 2P', sans-serif;
-  font-size: 40px;
 }
 
 .main-skills.-black {
   background-color: black;
   border-color: var(--blue-light);
+}
+
+.main-skills.-bgSecond {
+  background-color: var(--blue-light);
+  border-color: black;
+}
+
+.bio {
+  margin-top: 5rem;
 }

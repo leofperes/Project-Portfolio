@@ -6,9 +6,13 @@
   width: 28rem;
   height: 28rem;
   box-shadow: 1rem 1rem 0 white;
-  
+  transition: transform 100ms linear;
+}
+
+.card-project:hover {
+  transform: scale(1.03);
 }
 
 .card-project.-blue {
-  background-color: #4C5B84;
+  background-color: #4c5b84;
 }

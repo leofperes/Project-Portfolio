@@ -15,10 +15,10 @@
   padding: 42px 44px;
 }
 
-.main-box .main-title {
-  margin-bottom: 28px;
+.main-title {
+  margin-bottom: 2.8rem;
   font-family: 'Press Start 2P', sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   color: var(--titlename-color);
   text-shadow: 4px 4px 0 #000;
 }
